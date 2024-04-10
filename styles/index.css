@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'Montserrat-500';
+    src: url(../fonts/Montserrat-Medium.ttf);
+}
+@font-face {
+    font-family: 'Montserrat-700';
+    src: url(../fonts/Montserrat-Bold.ttf);
+}
+@font-face {
+    font-family: 'Fraunces-700';
+    src: url(../fonts/Fraunces_144pt-Bold.ttf);
+}
+
+:root {
+    --body-background: #f2eae2;
+    --card-background: #fff;
+    --btn-background: #3d8168;
+
+    --text-color: #6c7289;
+    --title-color: #1c232b;
+
+    --primary-font: 'Montserrat-500', sans-serif;
+    --secondary-font: 'Fraunces-700', serif;
+    --tetiary-font: 'Montserrat-700', sans-serif;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+body {
+    font-family: var(--primary-font);
+    background-color: var(--body-background);
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+}
+h1, p {
+    margin: 0;
+    padding: 0;
+}
+img {
+    width: 100%;
+}
