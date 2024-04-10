@@ -96,3 +96,23 @@ main {
     line-height: 1.4375rem;
     text-decoration-line: line-through;
 }
+
+.card__btn {
+    width: 100%;
+    background-color: var(--btn-background);
+    color: var(--card-background);
+    font-family: var(--tetiary-font);
+    font-size: 0.875rem;
+    padding: 0.94rem 0 1rem 0;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+    display: flex;
+    justify-content: center;
+    gap: 0.72594rem;
+}
+.card__btn:hover {
+    background-color: #1a4032;
+}
