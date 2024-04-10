@@ -52,9 +52,7 @@ main {
     margin: 1.75rem auto;
     padding: 0 1rem;
 }
-/* section {
 
-} */
 .card {
     background-color: var(--card-background);
     border-bottom-left-radius: 0.625rem;
@@ -115,4 +113,42 @@ main {
 }
 .card__btn:hover {
     background-color: #1a4032;
+}
+
+@media (min-width: 40rem){
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    main {
+        display: flex;
+        align-items: stretch;
+        max-width: 37.5rem;
+    }
+    section {
+        width: 50%;
+    }
+    .image img {
+        height: 100%;
+        object-fit: cover;
+
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 0.625rem;
+    }
+    .card {
+        padding: 2rem;
+        border-bottom-left-radius: 0;
+        border-top-right-radius: 0.625rem;
+    }
+    .card__name {
+        margin: 1.25rem 0 1.5rem 0;
+    }
+    .card__description {
+        margin-bottom: 1.81rem;
+    }
+    .card__price {
+        margin-bottom: 1.87rem;
+    }
 }
