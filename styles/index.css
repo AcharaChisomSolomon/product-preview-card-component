@@ -143,9 +143,11 @@ main {
         border-top-right-radius: 0.625rem;
     }
     .card__name {
+        width: 90%;
         margin: 1.25rem 0 1.5rem 0;
     }
     .card__description {
+        width: 105%;
         margin-bottom: 1.81rem;
     }
     .card__price {
